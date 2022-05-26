@@ -1,0 +1,93 @@
+* {
+    padding: 1;
+    margin: 1;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color: rgb(10, 10, 9);
+ }
+ #imagens {
+    border-radius: 3cm;
+ }
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+ }
+
+ ul li {
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(10, 10, 9);
+    padding: 10px;
+ }
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 57px;
+}
+
+h2 {
+    font-size: 37px;
+}
+
+p {
+    font-size: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    text-justify: auto;
+}
+
+.produtos{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    text-justify: auto;
+}
+.produtos img{
+    max-width: 150px;
+    border-radius: 3cm;
+}
+
+.form {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.form input {
+    height: 1cm;
+    width: 13cm;
+    background-color: rgb(241, 234, 231);
+    border-radius: 1cm;
+    color: rgb(9, 12, 36);
+}
+
+button{
+    height: 1cm;
+    width: 2cm;
+    background-color: rgb(241, 234, 231);
+    border-radius: 1cm;
+    color: rgb(9, 12, 36);
+}
+button:hover{
+    cursor: pointer;
+}
+
+#rodape {
+    text-justify: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#rodape img{
+    max-width: 50px;
+    border-radius: 3cm;
+}
+
+
+
+
